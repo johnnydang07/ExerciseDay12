@@ -1,4 +1,4 @@
-// Bai 1
+// Exercise 1
 function caculateShoppingBudget(listNeedToBuy) {
     let sum = 0;
     for (i = 0; i < listNeedToBuy.length; i = i + 1) {
@@ -11,7 +11,7 @@ function caculateShoppingBudget(listNeedToBuy) {
 listNeedToBuy = [[1, 20], [3, 40], [5, 15]];
 console.log(caculateShoppingBudget(listNeedToBuy));
 
-// Bai 2 
+// Exercise 2 
 list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
 function snail(list) {
     let result = [];
