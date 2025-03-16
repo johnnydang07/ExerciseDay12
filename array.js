@@ -12,7 +12,9 @@ listNeedToBuy = [[1, 20], [3, 40], [5, 15]];
 console.log(caculateShoppingBudget(listNeedToBuy));
 
 // Exercise 2 
-list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
+list = [[1, 2, 3], 
+        [4, 5, 6],
+        [7, 8, 9]];
 function snail(list) {
     let result = [];
     let left = 0;
