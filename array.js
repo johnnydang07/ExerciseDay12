@@ -16,7 +16,8 @@ list = [[1, 2, 3],
         [4, 5, 6],
         [7, 8, 9]];
 
-function snail(list) {
+function spiralSnail(list) {
+
     let result = [];
     let left = 0;
     let right = list[0].length;
@@ -48,4 +49,4 @@ function snail(list) {
 
     return result;
 }
-console.log(snail(list));
+console.log(spiralSnail(list));
